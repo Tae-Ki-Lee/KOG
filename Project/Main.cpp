@@ -48,14 +48,14 @@ int main() {
 	map<string, int> menu;
 	
 	while (1) {
-
+		cout << "-----------------------------" << endl;
 		cout << "원하시는 기능을 선택해주세요" << endl;
 		cout << "1 매장 추가 " << endl;
 		cout << "2 매장 수정 " << endl;
 		cout << "3 메뉴 추가 " << endl;
 		cout << "4 메뉴 수정 " << endl;
 		cout << "5 종료 " << endl;
-
+		cout << "-----------------------------" << endl;
 		int x;
 		x=write_int();
 
